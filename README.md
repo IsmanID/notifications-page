@@ -19,16 +19,18 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![Desktop](./images/ss-desktop.jpeg)
-![Mobile](./images/ss-mobile.jpeg)
+![Desktop](./assets/images/ss-desktop.jpeg)
+![Mobile](./assets/images/ss-mobile.jpeg)
 
 ### Links
-- Solution URL: [Github Project](https://github.com/isman17/faq-accordion-card)
-- Live Site URL: [Site Url](https://isman17.github.io/faq-accordion-card)
+- Solution URL: [Github Project](https://github.com/isman17/notifications-page)
+- Live Site URL: [Site Url](https://6343d091fc865748a216d669--monumental-marzipan-221a77.netlify.app/)
 
 ### My process
+- Setup nextjs
 - Setup tailwindcss
 - Implement design
+- Handle read notification state
 
 ### Built with
 - Flexbox
