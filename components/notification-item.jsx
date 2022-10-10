@@ -1,7 +1,7 @@
 export default function NotificationItem(props) {
     let notification = props.notification
     let readIcon = (!props.notification.read) 
-                    ? <svg xmlns="http://www.w3.org/2000/svg" className='inline w-3 text-primary-red' viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle></svg>
+                    ? <svg xmlns="http://www.w3.org/2000/svg" className='inline w-3 h-3 text-primary-red' viewBox="0 0 24 24" fill="currentColor" stroke="currentColor"><circle cx="12" cy="12" r="10"></circle></svg>
                     : ''
     let name = (notification.name) ? <a className='font-extrabold hover:text-primary-blue duration-200 cursor-pointer whitespace-nowrap'>{notification.name}</a> : ''
     let activity = (notification.activity) ? <span className="mx-2 font-medium text-dark-grayishBlue">{notification.activity}</span> : ''
